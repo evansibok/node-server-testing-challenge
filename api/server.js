@@ -1,6 +1,6 @@
 const express = require('express');
 
-const routes = require('./routes');
+const routes = require('./baseRoute');
 const rootMiddleware = require('../middlewares');
 
 const server = express();
