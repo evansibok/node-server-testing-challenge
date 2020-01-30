@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "cross-env jest --watchAll --verbose"
+    "test": "cross-env DB_ENV=testing jest --watchAll --verbose"
   },
   "repository": {
     "type": "git",
